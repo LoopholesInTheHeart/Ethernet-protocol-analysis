@@ -3,4 +3,4 @@ project(UDP_test)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(UDP_test main.cpp)
+add_executable(UDP_test main.cpp src/NetUdpBase.cpp include/NetUdpBase.h)
